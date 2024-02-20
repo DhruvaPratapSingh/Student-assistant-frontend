@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    border: 0;
+  }
+  
+  .purple_rect {
+    width: 1120px;
+    background-color: #7563bd;
+    height: 1024px;
+  }
+  
+  .rect2 {
+    height: 636px;
+    width: 760px;
+    position: absolute;
+    top: 272px;
+    left: 100px;
+    background-color: white;
+  }
+  
+  .purple_rect p {
+    font-family: 'Gluten', sans-serif;
+    font-size: 150px;
+    color: white;
+    position: relative;
+    top: 100px;
+    left: 350px;
+  }
+  
+  .ssistant {
+    display: inline;
+    font-family: 'Gluten', sans-serif;
+    font-size: 150px;
+    color: #7563bd;
+    position: absolute;
+    top: 100px;
+    left: 1120px;
+  }
+  
+  .stud_img {
+    background-size: 950px 636px;
+    height: 636px;
+    position: absolute;
+    top: 272px;
+    left: 860px;
+    width: 950px;
+  }
+  
+  .login {
+    font-family: 'Gluten', sans-serif;
+    font-size: 90px;
+    color: #8991e4;
+    margin-top: 100px;
+    height: 90px;
+    margin-left: 200px;
+  }
+  
+  .rect2 input {
+    border: 0;
+    outline: 0;
+    background-color: #d9d9d9;
+    color: #646060;
+    height: 80px;
+    margin-top: 40px;
+    border-radius: 20px;
+    width: 450px;
+    margin-left: 120px;
+    font-size: 20px;
+    padding-left: 40px;
+    font-family: 'Faustina', sans-serif;
+  }
+  
+  .forgot {
+    display: flex;
+    justify-content: space-evenly;
+    width: 200px;
+    margin-left: 230px;
+    margin-top: 20px;
+    color: #646060;
+  }
+  
+  #clickhere {
+    color: #8991e4;
+    font-weight: bolder;
+    text-decoration: underline;
+  }
+  
+  .signupbtn {
+    border: 0;
+    outline: 0;
+    background-color: #d9d9d9;
+    color: #646060;
+    font-weight: bolder;
+    height: 60px;
+    width: 170px;
+    border-radius: 40px;
+    margin-left: 155px;
+    margin-top: 50px;
+    margin-right: 20px;
+    font-size: 30px;
+    font-family: 'Faustina', sans-serif;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .loginbtn {
+    border: 0;
+    outline: 0;
+    background-color: #8991e4;
+    color: white;
+    font-weight: bolder;
+    height: 60px;
+    width: 170px;
+    border-radius: 40px;
+    margin-left: 10px;
+    margin-top: 50px;
+    font-size: 30px;
+    font-family: 'Faustina', sans-serif;
+    text-align: center;
+    cursor: pointer;
+  }
+  

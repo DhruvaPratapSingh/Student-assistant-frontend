@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    border: 0;
+  }
+  
+  .navbar {
+    height: 100px;
+    background-color: #7563BD;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .logo {
+    display: flex;
+    color: white;
+    font-family: 'Gluten', sans-serif;
+    font-size: 50px;
+    width: 350px;
+    height: 60px;
+  }
+  
+  .logo p {
+    line-height: 60px;
+  }
+  
+  .nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    width: 1200px;
+    height: 50px;
+    border-radius: 30px;
+  }
+  
+  .search-input {
+    width: 100%;
+    font-size: 25px;
+    font-family: 'Faustina', sans-serif;
+    border-radius: 30px;
+    padding-left: 25px;
+    padding-bottom: 5px;
+    outline: none;
+  }
+  
+  .search-icon {
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding: 10px;
+    background-color: #d9d9d9;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: #646060;
+  }
+  
+  .sellbtn {
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+    color: #7563BD;
+    font-family: 'Faustina', sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    line-height: 40px;
+  }
+  
+  .profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Faustina', sans-serif;
+    font-size: 20px;
+  }
+  
+  .profile i {
+    font-size: 30px;
+  }
+  
+  .panel {
+    height: 40px;
+    background-color: #8991E4;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .back2home {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Faustina', sans-serif;
+    width: 970px;
+    margin-left: 20px;
+  }
+  
+  .back2home p {
+    margin-left: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .menu {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    justify-content: space-evenly;
+  }
+  
+  .wishlist {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Faustina', sans-serif;
+  }
+  
+  .wishlist p {
+    margin-left: 10px;
+  }
+  
+  .mycart {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Faustina', sans-serif;
+  }
+  
+  .mycart p {
+    margin-left: 10px;
+  }
+  
+  .contactus {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Faustina', sans-serif;
+  }
+  
+  .contactus p {
+    margin-left: 10px;
+  }
+  
+  .logout {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Faustina', sans-serif;
+    margin-right: 20px;
+  }
+  
+  .logout p {
+    margin-right: 10px;
+  }
+  
+  .cards-container {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    align-items: start;
+  }
+  
+  .card {
+    width: 360px;
+    height: 400px;
+    border-radius: 4px;
+    margin: 20px;
+    background-color: #7563BD;
+  }
+  
+  .cardimg {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  .cardcontent {
+    padding: 12px;
+  }
+  
+  .footpanel {
+    text-align: center;
+    padding: 10px;
+    background-color: #7563BD;
+    color: white;
+  }
+  
