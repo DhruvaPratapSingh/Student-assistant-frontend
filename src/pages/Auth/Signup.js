@@ -5,28 +5,27 @@ import "./Signup.css";
 const Signup = () => {
   return (
     <div>
-      <header>
-        <h1 className="ssistant">ssistant</h1>
-      </header>
+     
+        <p className="ssistant">ssistant</p>
+  
       <div className="purple_rect">
         <p>Student A</p>
       </div>
-      <section className="rect2">
+      <div className="rect2">
         <p className="signup">SignUp</p>
         <form action="/signup" method="post">
           <input type="text" placeholder="Enter Name" />
           <input type="text" placeholder="Enter Email" />
+          <input type="text" placeholder="Enter UserName" />
           <input type="password" placeholder="Enter Password" />
-          <button type="submit" className="signupbtn">
-            Signup
+          <button type="submit" className="submitbtn">
+            Submit
           </button>
+          <button className="loginbtn2"><a href="/">Login</a></button>
         </form>
-      </section>
+      </div>
       <div
-        className="stud_img"
-        style={{ backgroundImage: `url(${STUDENT_ASSISTANT_IMG})` }}
-      >
-        {/* ... */}
+        className="stud_img">
       </div>
     </div>
   );

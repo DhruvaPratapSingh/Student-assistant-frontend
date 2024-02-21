@@ -1,13 +1,17 @@
-* {
-    margin: 0;
-    box-sizing: border-box;
-    border: 0;
-  }
-  
+@import url('https://fonts.googleapis.com/css2?family=Faustina:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&display=swap');
+
+
+
+
+  /* .main{
+    height: 100%;
+    width: 1905px;
+  } */
   .purple_rect {
     width: 1120px;
     background-color: #7563bd;
-    height: 1024px;
+    height: 1100px;
   }
   
   .rect2 {
@@ -24,7 +28,7 @@
     font-size: 150px;
     color: white;
     position: relative;
-    top: 100px;
+    top: 80px;
     left: 350px;
   }
   
@@ -34,11 +38,12 @@
     font-size: 150px;
     color: #7563bd;
     position: absolute;
-    top: 100px;
+    top: 80px;
     left: 1120px;
   }
   
   .stud_img {
+   background-image: url(/src/assets/studentass1.png);
     background-size: 950px 636px;
     height: 636px;
     position: absolute;
@@ -56,7 +61,7 @@
     margin-left: 200px;
   }
   
-  .rect2 input {
+  .rect2 form input {
     border: 0;
     outline: 0;
     background-color: #d9d9d9;
@@ -72,13 +77,16 @@
   }
   
   .forgot {
+    font-size: 20px;
     display: flex;
     justify-content: space-evenly;
-    width: 200px;
-    margin-left: 230px;
+    width: 250px;
+    margin-left: 200px;
     margin-top: 20px;
     color: #646060;
+    font-family: 'Faustina',sans-serif;
   }
+
   
   #clickhere {
     color: #8991e4;
@@ -95,13 +103,17 @@
     height: 60px;
     width: 170px;
     border-radius: 40px;
-    margin-left: 155px;
+    margin-left: 150px;
     margin-top: 50px;
     margin-right: 20px;
     font-size: 30px;
     font-family: 'Faustina', sans-serif;
     text-align: center;
     cursor: pointer;
+  }
+  .signupbtn a{
+    text-decoration: none;
+    color: #646060;
   }
   
   .loginbtn {
