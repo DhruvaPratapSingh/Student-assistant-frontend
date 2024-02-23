@@ -12,9 +12,9 @@ const Home = () => {
           </div>
           <div className="nav-search">
             <input placeholder="Search Products" className="search-input" />
-            <div className="search-icon">
+            <button className="searchbtn">
               <i className="fa-solid fa-magnifying-glass"></i>
-            </div>
+            </button>
           </div>
           <button className="sellbtn">Sell Item</button>
           <button className="plusicon"><i class="fa-solid fa-plus"></i> </button>
