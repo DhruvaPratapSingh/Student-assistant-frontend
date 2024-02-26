@@ -1,0 +1,92 @@
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    border: 0;
+  }
+  
+  .navbar {
+    height: 100px;
+    background-color: #7563BD;
+  }
+  
+  .navbar p {
+    color: white;
+    font-family: 'Gluten', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    line-height: 100px;
+  }
+  
+  .details {
+    height: 450px;
+    border: 1px solid black;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #prodDescp {
+    height: 200px;
+    width: 100%;
+  }
+  
+  .details input,
+  .details textarea {
+    border: 0;
+    outline: 0;
+    background-color: #d9d9d9;
+    color: #646060;
+    height: 60px;
+    margin-top: 20px;
+    border-radius: 20px;
+    width: calc(50% - 20px);
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    padding-left: 30px;
+    font-family: 'Faustina', sans-serif;
+  }
+  
+  .addDetails {
+    font-family: 'Faustina', sans-serif;
+    color: #8991E4;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 320px;
+    margin-top: 40px;
+  }
+  
+  .addImage {
+    font-family: 'Faustina', sans-serif;
+    color: #8991E4;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 320px;
+  }
+  
+  .image {
+    height: 200px;
+    border: 1px solid black;
+    width: 200px;
+    margin-left: 300px;
+    margin-top: 10px;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .add {
+    color: #646060;
+    height: 100px;
+    width: 100px;
+    font-size: 80px;
+    text-align: center;
+    background-color: #d9d9d9;
+  }
+  
