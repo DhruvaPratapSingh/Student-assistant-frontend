@@ -47,7 +47,7 @@
     outline: none;
   }
   
-  .search-icon {
+  .searchbtn {
     width: 70px;
     display: flex;
     justify-content: center;
@@ -400,7 +400,7 @@
     }
     
     
-    .search-icon {
+    .searchbtn {
       width: 50px;
     }
     
@@ -458,7 +458,7 @@
     outline: none;
   }
   
-  .search-icon {
+  .searchbtn {
     width: 50px;
     font-size: 25px;
     padding: 10px;
