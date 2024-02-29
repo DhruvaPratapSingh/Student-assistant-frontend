@@ -67,7 +67,7 @@ const Signup = () => {
   return (
     <div>
       <header>
-        <h1 className="ssistant">ssistant</h1>
+        <p className="ssistant">ssistant</p>
       </header>
       <div className="purple_rect">
         <p>Student A</p>
@@ -125,12 +125,15 @@ const Signup = () => {
           />
           <button
             type="button"
-            className="signupbtn"
+            className="submitbtn"
             onClick={(event) => {
               handleSignUp(event);
             }}
           >
-            SignUp
+            Submit
+          </button>
+          <button className="loginbtn2">
+            <a href="/">Login</a>
           </button>
         </form>
       </section>

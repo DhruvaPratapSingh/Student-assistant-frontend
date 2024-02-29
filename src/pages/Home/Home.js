@@ -1,7 +1,9 @@
 import React from "react";
 import "./Home.css";
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
+  const navigate = useNavigate();
   return (
     <div>
       <nav>
@@ -16,7 +18,9 @@ const Home = () => {
               <i className="fa-solid fa-magnifying-glass"></i>
             </button>
           </div>
-          <button className="sellbtn">Sell Item</button>
+          <button className="sellbtn" onClick={() => navigate("/addProduct")}>
+            Sell Item
+          </button>
           <button className="plusicon">
             <i class="fa-solid fa-plus"></i>{" "}
           </button>
@@ -81,162 +85,8 @@ const Home = () => {
               <i class="fa-solid fa-heart"></i>
             </div>
           </div>
-          <div className="card">
-            <div className="cardimg">
-              <img src="https://via.placeholder.com/400x200" alt="" />
-            </div>
-            <div className="cardcontent">
-              <p id="productcost">Rs. 100</p>
-              <p id="producttitle">Product Title</p>
-              <p className="parameters">Used For:</p>
-              <p id="usedfor">2 years</p>
-              <p className="parameters">Original Cost:</p>
-              <p id="originalcost"> Rs. 500</p>
-              <p className="parameters">Product Description:</p>
-              <p id="prodDescp">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit...
-              </p>
-            </div>
-            <div className="cardactions">
-              <p>Contact Seller</p>
-              <i class="fa-solid fa-heart"></i>
-            </div>
-          </div>
-          <div className="card">
-            <div className="cardimg">
-              <img src="https://via.placeholder.com/400x200" alt="" />
-            </div>
-            <div className="cardcontent">
-              <p id="productcost">Rs. 100</p>
-              <p id="producttitle">Product Title</p>
-              <p className="parameters">Used For:</p>
-              <p id="usedfor">2 years</p>
-              <p className="parameters">Original Cost:</p>
-              <p id="originalcost"> Rs. 500</p>
-              <p className="parameters">Product Description:</p>
-              <p id="prodDescp">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit...
-              </p>
-            </div>
-            <div className="cardactions">
-              <p>Contact Seller</p>
-              <i class="fa-solid fa-heart"></i>
-            </div>
-          </div>
-          <div className="card">
-            <div className="cardimg">
-              <img src="https://via.placeholder.com/400x200" alt="" />
-            </div>
-            <div className="cardcontent">
-              <p id="productcost">Rs. 100</p>
-              <p id="producttitle">Product Title</p>
-              <p className="parameters">Used For:</p>
-              <p id="usedfor">2 years</p>
-              <p className="parameters">Original Cost:</p>
-              <p id="originalcost"> Rs. 500</p>
-              <p className="parameters">Product Description:</p>
-              <p id="prodDescp">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit...
-              </p>
-            </div>
-            <div className="cardactions">
-              <p>Contact Seller</p>
-              <i class="fa-solid fa-heart"></i>
-            </div>
-          </div>
-          <div className="card">
-            <div className="cardimg">
-              <img src="https://via.placeholder.com/400x200" alt="" />
-            </div>
-            <div className="cardcontent">
-              <p id="productcost">Rs. 100</p>
-              <p id="producttitle">Product Title</p>
-              <p className="parameters">Used For:</p>
-              <p id="usedfor">2 years</p>
-              <p className="parameters">Original Cost:</p>
-              <p id="originalcost"> Rs. 500</p>
-              <p className="parameters">Product Description:</p>
-              <p id="prodDescp">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit...
-              </p>
-            </div>
-            <div className="cardactions">
-              <p>Contact Seller</p>
-              <i class="fa-solid fa-heart"></i>
-            </div>
-          </div>
-          <div className="card">
-            <div className="cardimg">
-              <img src="https://via.placeholder.com/400x200" alt="" />
-            </div>
-            <div className="cardcontent">
-              <p id="productcost">Rs. 100</p>
-              <p id="producttitle">Product Title</p>
-              <p className="parameters">Used For:</p>
-              <p id="usedfor">2 years</p>
-              <p className="parameters">Original Cost:</p>
-              <p id="originalcost"> Rs. 500</p>
-              <p className="parameters">Product Description:</p>
-              <p id="prodDescp">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit...
-              </p>
-            </div>
-            <div className="cardactions">
-              <p>Contact Seller</p>
-              <i class="fa-solid fa-heart"></i>
-            </div>
-          </div>
-          <div className="card">
-            <div className="cardimg">
-              <img src="https://via.placeholder.com/400x200" alt="" />
-            </div>
-            <div className="cardcontent">
-              <p id="productcost">Rs. 100</p>
-              <p id="producttitle">Product Title</p>
-              <p className="parameters">Used For:</p>
-              <p id="usedfor">2 years</p>
-              <p className="parameters">Original Cost:</p>
-              <p id="originalcost"> Rs. 500</p>
-              <p className="parameters">Product Description:</p>
-              <p id="prodDescp">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit...
-              </p>
-            </div>
-            <div className="cardactions">
-              <p>Contact Seller</p>
-              <i class="fa-solid fa-heart"></i>
-            </div>
-          </div>
-          <div className="card">
-            <div className="cardimg">
-              <img src="https://via.placeholder.com/400x200" alt="" />
-            </div>
-            <div className="cardcontent">
-              <p id="productcost">Rs. 100</p>
-              <p id="producttitle">Product Title</p>
-              <p className="parameters">Used For:</p>
-              <p id="usedfor">2 years</p>
-              <p className="parameters">Original Cost:</p>
-              <p id="originalcost"> Rs. 500</p>
-              <p className="parameters">Product Description:</p>
-              <p id="prodDescp">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit...
-              </p>
-            </div>
-            <div className="cardactions">
-              <p>Contact Seller</p>
-              <i class="fa-solid fa-heart"></i>
-            </div>
-          </div>
-          {/* Add more cards as needed */}
         </div>
       </main>
-
-      <footer>
-        <div className="footpanel">
-          <a href="#">Back To Top</a>
-        </div>
-      </footer>
     </div>
   );
 };

@@ -5,12 +5,12 @@
     border: 0;
   }
   
-  .navbar {
+  .navbar1 {
     height: 100px;
     background-color: #7563BD;
   }
   
-  .navbar p {
+  .navbar1 p {
     color: white;
     font-family: 'Gluten', sans-serif;
     font-size: 50px;
@@ -29,13 +29,23 @@
     flex-wrap: wrap;
   }
   
-  #prodDescp {
+  .prodDescp1 {
     height: 200px;
     width: 100%;
+    border: 0;
+    outline: 0;
+    background-color: #d9d9d9;
+    color: #646060;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    padding-left: 30px;
+    font-family: 'Faustina', sans-serif;
   }
   
-  .details input,
-  .details textarea {
+  .details input {
     border: 0;
     outline: 0;
     background-color: #d9d9d9;

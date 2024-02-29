@@ -73,6 +73,7 @@ class ApiHandler {
       return data;
     } catch (error) {
       if (error) {
+        console.log("error in post form data", error);
         this.handleApiResponse(error?.response || error);
       }
     }
