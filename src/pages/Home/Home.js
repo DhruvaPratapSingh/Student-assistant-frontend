@@ -26,7 +26,7 @@ const Home = () => {
           </button>
           <div className="profile">
             <i className="fa-solid fa-user"></i>
-            <p>My Profile</p>
+            <a href="/profile">My Profile</a>
           </div>
         </div>
         <div className="panel">

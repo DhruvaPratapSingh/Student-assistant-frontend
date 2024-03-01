@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+.profilenavbar{
+    height: 100px;
+    background-color: #7563BD;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
+}
+
+.usernamelogo{
+    display: flex;
+    color: white;
+    font-family: 'Gluten',sans-serif;
+    font-size: 50px;
+    width: 350px;
+    height: 60px;
+    margin-left: 20px;
+}
+.usernamelogo p{
+    line-height: 60px;
+}
+
+.profilepanel{
+    height: 40px;
+    background-color: #8991E4;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.back2home{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Faustina',sans-serif;
+    width: 970px;
+    margin-left: 20px;
+   
+}
+.back2home p{
+    margin-left: 10px ;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.changepasswordoption{
+    display: flex;
+align-items: center;
+color: white;
+font-size: 20px;
+font-family: 'Faustina',sans-serif;
+margin-right: 20px;
+}
+.changepasswordoption p{
+    margin-right: 10px;
+}
+
+main{
+    margin-top: 20px;
+    padding: 20px;
+}
+.Myproducts{
+    color: #8991E4;
+    font-family: 'Faustina',sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+.cards-container{
+    display: flex; 
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    align-items: start;
+}
+.card{
+    width: 400px;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 4px;
+    margin: 20px;
+    background-color: white
+}
+.cardactions{
+    display: flex;
+    justify-content: space-between;
+    padding: 7px;
+    align-items: center;
+    color: white;
+    font-family: 'Faustina',sans-serif;
+    font-size: 20px;
+    width: 100%;
+    height: 30px;
+    background-color: #8991E4;
+
+}
+.cardactions p{
+    margin-bottom: 5px;
+}
+.cardimg{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+.cardcontent{
+    padding: 12px;
+    margin-top: 25px;
+}
+
+#productcost{
+    font-family: 'Faustina',sans-serif;
+    color: #7563BD;
+    font-weight: bolder;
+    font-size: 30px;
+
+}
+#producttitle{
+    font-family: 'Faustina',sans-serif;
+    color: #7563BD;
+    font-size: 20px;
+}
+.parameters{
+  margin-top: 9px;
+  font-family: 'Faustina',sans-serif;
+    color: #7563BD;
+    font-size: 15px;
+}
+#usedfor{
+    font-family: 'Faustina',sans-serif;
+    color: #7563BD;
+    font-size: 15px;
+}
+#originalcost{
+  font-family: 'Faustina',sans-serif;
+    color: #7563BD;
+    font-size: 15px;
+}
+#prodDescp{
+    font-family: 'Faustina',sans-serif;
+    color: #7563BD;
+    font-size: 15px
+}
